@@ -642,3 +642,59 @@ nav a {
 #form-status {
     color: #a78bfa;
 }
+.project-icon {
+    font-size: 65px;
+    color: #a78bfa;
+    margin-bottom: 25px;
+}
+
+.projects {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.project-subtitle {
+    margin-bottom: 35px;
+    color: #888;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: #171323;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #a78bfa;
+    font-weight: bold;
+}
